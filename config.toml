@@ -2,7 +2,7 @@ title = "Garrett's blog"
 description = "\"Find the place where you can be boring / Where you won't need to explain\""
 
 # The URL the site will be built for
-base_url = "https://example.com"
+base_url = "https://massivebird.github.io/neocities-site"
 
 theme = "hook"
 

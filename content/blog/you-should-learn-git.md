@@ -31,10 +31,9 @@ Besides, Git's GUI is so ugly and clunky that I wouldn't wish it on anyone.
 
 ## Resources
 
-_Here are my favorite resources for learning Git. Have fun! :3_
+__Start with [Pro Git](https://git-scm.com/book/en/v2)__, the free e-book hosted by the official Git website.
 
-+ [Pro Git](https://git-scm.com/book/en/v2), the free e-book hosted by the official Git website.
-+ [Ubuntu's Bash shell tutorial](https://ubuntu.com/tutorials/command-line-for-beginners#1-overview) for those unfamiliar with the command line.
++ [Ubuntu's Bash shell tutorial](https://ubuntu.com/tutorials/command-line-for-beginners#1-overview), for those unfamiliar with the command line.
 + [Git documentation](https://git-scm.com/docs) for cheat sheets, quick references, and command manuals.
 
 ### Downloads

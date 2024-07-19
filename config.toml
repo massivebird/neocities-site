@@ -1,5 +1,10 @@
+title = "Garrett's blog"
+description = "\"Find the place where you can be boring / Where you won't need to explain\""
+
 # The URL the site will be built for
 base_url = "https://example.com"
+
+theme = "hook"
 
 # Whether to automatically compile all Sass files in the sass directory
 compile_sass = true
@@ -17,3 +22,10 @@ highlight_code = true
 
 [extra]
 # Put all your custom variables here
+
+# Extra links in the homepage (Hook theme)
+links = [
+   { title = "GitHub", href = "https://github.com/massivebird" },
+   { title = "Spotify", href = "https://open.spotify.com/user/parrotflakes?si=92d974deec5f4cab" },
+   { title = "About", href = "/about" },
+]

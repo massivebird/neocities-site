@@ -25,7 +25,7 @@ Git is available for all platforms, and can be used in the command line or throu
 
 I _must_ recommend learning Git in the command line. That's probably scary to you, but I promise you'll do just fine. If you're unfamiliar with the command line, I recommend following [Ubuntu's Bash shell tutorial](https://ubuntu.com/tutorials/command-line-for-beginners#1-overview). Their tutorial is amazing, concise, and will catch you up to speed with the basics.
 
-> Windows users can either install Microsoft's [WSL](https://ubuntu.com/desktop/wsl) (recommended) and/or opt for the Git Bash when installing Git.
+> Windows users can either install Microsoft's [WSL](https://ubuntu.com/desktop/wsl) (recommended) and/or opt for the Git Bash when installing Git. I wouldn't recommend the native Windows command line; Linux is more ergonomic and fun.
 
 Besides, Git's GUI is so ugly and clunky that I wouldn't wish it on anyone.
 

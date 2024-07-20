@@ -39,27 +39,37 @@ GitHub has even more features in store for you. Here are some of my favorites!
 
 ### Issues (as in the feature)
 
-GitHub Issues is a project planning feature available on all repos. Within Issues, users can create posts to request features, report bugs, and more. Issues works so well because it is right there in your project repository.
-
-When a post has been resolved — for example, when a bug has been fixed — the post can be flagged as "Closed," reorganizing it separately from unresolved "Open" issues.
-
-I love using Issues to manage short-term and long-term project goals, even for small projects. Issues also decouples project objectives from source code, which eliminates "TODO" comment clutter.
+GitHub Issues is a project planning feature available on all repos. Within Issues, users can create posts to request features, report bugs, and more.
 
 You can read more about GitHub Issues [here](https://github.com/features/issues).
 
 ### Forks
 
-You can _fork_ anyone's GitHub project, creating a copy of the repository under your account. Forked repositories are labeled as such along with a link to the original repo. Forks can be freely modified without affecting the original project, which is great when you want to modify someone else's work.
+You can _fork_ anyone's GitHub repository, which creates a copy of the repo under your account. Forks can be freely modified without affecting the original repo, which is great when you want to make some modifications to someone else's work.
 
 You can read more about GitHub forks [here](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/fork-a-repo).
 
 ### Pull requests
 
-Pull requests, commonly abbreviated to PRs, enable users to propose project changes. Pull requests are posts just like Issues, so they support discussion threads and categorization.
-
-The average workflow involves creating a fork of a project, committing and pushing changes to your fork, then filing a pull request on the original project repo containing those changes. Your PR might even be approved and merged!
+Pull requests, commonly abbreviated to PRs, enable users to propose project changes. The typical workflow involves creating a fork of a project, committing and pushing changes to your fork, then filing a pull request on the original project repo containing those changes. Your PR might even be approved and merged!
 
 You can read more about GitHub's pull requests [here](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-pull-requests).
+
+### Pages
+
+Create websites from your repositories with GitHub Pages! The website will automatically reflect any changes you make to the repository. This feature is totally free for public repositories. _This website is powered by Pages!_
+
+You can read more about GitHub Pages [here](https://pages.github.com/).
+
+## Getting started
+
+Head over to [github.com](https://github.com/), make an account, and get started with your GitHub journey! I recommend using GitHub's [Explore page](https://github.com/explore) to find projects that interest you.
+
+> By the way, repository URLs are structured like so, which distinguishes the repo's author from the repo name:
+> 
+> ```
+> https://github.com/<user>/<repository>
+> ```
 
 ## Resources
 

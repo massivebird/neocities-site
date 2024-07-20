@@ -9,8 +9,6 @@ GitHub is a powerful, cloud-based storage solution for Git repositories! Create 
 
 I should mention an important distinction: __Git is a software__ that lives on your computer, and __GitHub is a web platform__.
 
-<!-- NOTE THIS IN THINGS I WISH I KNEW : a Git repository is any project that is "Git-enabled," identified with the `.git/` directory in the project root. -->
-
 ## What is a repository?
 
 I need to define some terms before we get involved.

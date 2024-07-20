@@ -3,7 +3,7 @@ title = "You should learn Git"
 date = 2024-07-18
 +++
 
-You should learn Git, especially if you're a programmer. I hope this post will inspire you to try it out!
+You should learn Git, especially if you're a programmer. Git breaks down the biggest barriers to improvement, letting you realize your untapped potential as a developer.
 
 Git is a VCS (Version Control Software) that maintains a history of changes made to your projects. These changes can be reverted, altered, and reviewed at any time. This is Git at its simplest — a lightweight and reliable record of your development progress. Oh yeah, and Git is totally free.
 

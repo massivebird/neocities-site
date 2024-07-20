@@ -19,6 +19,8 @@ I'm sure you know the dread of accidentally breaking your entire project. With G
 
 Taking risks is the essence of self-improvement. Git will help you overcome the fear of failure and losing your valuable work. Git is a witness to your progress so that you can work looking forwards — never backwards.
 
+Read ["You should use GitHub"](@/blog/you-should-use-github.md) to learn about enhancing your Git skills by hosting your projects in the cloud (and much more).
+
 ## Getting started
 
 Git is available for all platforms, and can be used in the command line or through a graphical interface. You can download Git [here](https://git-scm.com/).
@@ -35,6 +37,7 @@ __Start with [Pro Git](https://git-scm.com/book/en/v2)__, the free e-book hosted
 
 + [Ubuntu's Bash shell tutorial](https://ubuntu.com/tutorials/command-line-for-beginners#1-overview), for those unfamiliar with the command line.
 + [Git documentation](https://git-scm.com/docs) for cheat sheets, quick references, and command manuals.
++ [Visualizing Git](https://git-school.github.io/visualizing-git/), an interactive, visual simulation of committing, branching, rebasing, and resetting.
 
 ### Downloads
 

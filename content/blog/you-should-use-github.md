@@ -3,7 +3,7 @@ title = "You should use GitHub"
 date = 2024-07-19
 +++
 
-You should use GitHub. Check out the prerequisite blog post called ["You should learn Git"](@/blog/you-should-learn-git.md) if you're interested.
+You should use GitHub, especially if you're a programmer. Check out the prerequisite blog post called ["You should learn Git"](@/blog/you-should-learn-git.md) if you're interested.
 
 GitHub is a powerful, cloud-based storage solution for Git repositories! Create remote copies of your projects _and_ take advantage of GitHub's killer features. The service is an industry standard in the software scene (and others) for a reason.
 
@@ -39,9 +39,11 @@ GitHub has even more features in store for you. Here are some of my favorites!
 
 ### Issues (as in the feature)
 
-GitHub Issues is a project planning feature available on all repos. Within Issues, users can create posts to request features, report bugs, and more. When a post has been resolved — for example, when a bug has been fixed — the post can be flagged as "Closed," reorganizing it separately from unresolved "Open" issues.
+GitHub Issues is a project planning feature available on all repos. Within Issues, users can create posts to request features, report bugs, and more. Issues works so well because it is right there in your project repository.
 
-Issues is a great place to declare and manage short-term and long-term project goals. Even for small projects, Issues helps me maintain a list of areas to improve on. Issues also decouples project objectives from your source code, which eliminates "TODO" comment clutter.
+When a post has been resolved — for example, when a bug has been fixed — the post can be flagged as "Closed," reorganizing it separately from unresolved "Open" issues.
+
+I love using Issues to manage short-term and long-term project goals, even for small projects. Issues also decouples project objectives from source code, which eliminates "TODO" comment clutter.
 
 You can read more about GitHub Issues [here](https://github.com/features/issues).
 

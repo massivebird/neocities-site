@@ -35,7 +35,9 @@ Git interfaces with GitHub to make data transfers extremely simple. Whether you'
 
 ## GitHub's additional features
 
-GitHub has even more features in store for you. Here are some of my favorites!
+> If you're already sold on GitHub, you can skip this section to [get started already](#getting-started).
+
+Here are even more features in store for you!
 
 ### Issues (as in the feature)
 

@@ -25,7 +25,7 @@ Taking risks is the essence of self-improvement. Git will help you overcome the 
 
 Git is available for all platforms, and can be used in the command line or through a graphical interface. You can download Git [here](https://git-scm.com/).
 
-I _must_ recommend learning Git in the command line. If that sounds scary, I promise you'll do just fine. You only need to know basic commands to get started with Git. If you're unfamiliar with command line fundamentals, I recommend following [Ubuntu's Bash shell tutorial](https://ubuntu.com/tutorials/command-line-for-beginners#1-overview).
+I _must_ recommend learning Git in the command line. The command line isn't as difficult as it seems, and you only need basic commands to get started with Git. If you're unfamiliar with command line fundamentals, I recommend following [Ubuntu's Bash shell tutorial](https://ubuntu.com/tutorials/command-line-for-beginners#1-overview).
 
 > Windows users can either install Microsoft's [WSL](https://ubuntu.com/desktop/wsl) (recommended) and/or opt for the Git Bash when installing Git. I wouldn't recommend the native Windows command line; Linux is more ergonomic and fun.
 

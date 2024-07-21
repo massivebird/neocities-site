@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Garrett blogs about computer stuff">
+    <title>Garrett&#x27;s blog | You should learn Git</title>
+    
+    <link rel="stylesheet" href="https://massivebird.github.io/style.css?h=5c5abba3a670f76f59be">
+    
+    
+    
+    
+</head>
+<body>
+    
+<header class="space">
+    <a href="https:&#x2F;&#x2F;massivebird.github.io&#x2F;">&LeftArrow; Home</a>
+</header>
+
+    
+<main>
+    <h1>You should learn Git</h1>
+    
+    <p class="secondary">18 July, 2024</p>
+    
+    <div class="space"></div>
+    <p>You should learn Git, especially if you're a programmer. Git breaks down the biggest barriers to improvement, letting you realize your untapped potential as a developer.</p>
+<p>Git is a VCS (Version Control Software) that maintains a history of changes made to your projects. These changes can be reverted, altered, and reviewed at any time. This is Git at its simplest — a lightweight and reliable record of your development progress. Oh yeah, and Git is totally free.</p>
+<p>Combined with services like GitHub, you can even create cloud-based copies of your work that you can freely update, download, and share. GitHub safely hosts your projects in case you drop your hard drive in the toilet. Oh yeah, and GitHub is totally free.</p>
+<blockquote>
+<p>You can read more about GitHub in my other post, <a href="https://massivebird.github.io/blog/you-should-use-github/">&quot;You should use GitHub&quot;</a>!</p>
+</blockquote>
+<p>Whenever you make changes to a project, Git allows you to create a new <em>commit</em> to record said changes. Git automatically maintains a timeline of all commits, which you can view at any time.</p>
+<img src="/blog/arcstat-git-log.png" alt="image of a Git log" />
+<blockquote>
+<p>Above: a segment of the commit history for my Rust project, <a href="https://github.com/massivebird/arcstat">arcstat</a>.</p>
+</blockquote>
+<p>I'm sure you know the dread of accidentally breaking your entire project. With Git, you don't have to worry anymore: commits allow you to restore project progress at will. This simple checkpoint system means no more annoying copy-paste backups of your entire codebase. Git makes it so easy.</p>
+<p>That's really Git in a nutshell! Continuously saving intermediate progress means you can start taking risks — and taking risks is the essence of self-improvement. Git will help you overcome the fear of failure and losing your valuable work. Git is a witness to your progress so that you can work looking forwards — never backwards.</p>
+<h2 id="getting-started">Getting started</h2>
+<p>Git is available for all platforms, and can be used in the command line or through a graphical interface. You can download Git <a href="https://git-scm.com/">here</a>.</p>
+<p>I <em>must</em> recommend learning Git in the command line. The command line isn't as difficult as it seems, and you only need basic commands to get started with Git. If you're unfamiliar with command line fundamentals, I recommend following <a href="https://ubuntu.com/tutorials/command-line-for-beginners#1-overview">Ubuntu's Bash shell tutorial</a>.</p>
+<blockquote>
+<p>Windows users can either install Microsoft's <a href="https://ubuntu.com/desktop/wsl">WSL</a> (recommended) and/or opt for the Git Bash when installing Git. I wouldn't recommend the native Windows command line; Linux is more ergonomic and fun.</p>
+</blockquote>
+<p>Besides, Git's GUI is so ugly and clunky that I wouldn't wish it on anyone.</p>
+<h2 id="resources">Resources</h2>
+<p><strong>Start with <a href="https://git-scm.com/book/en/v2"><em>Pro Git</em></a></strong>, a free e-book available for download on the official Git site. All my homies love <em>Pro Git</em>.</p>
+<ul>
+<li><a href="https://ubuntu.com/tutorials/command-line-for-beginners#1-overview">Ubuntu's Bash shell tutorial</a>, for those unfamiliar with the command line.</li>
+<li><a href="https://git-scm.com/docs">Git documentation</a> for cheat sheets, quick references, and command manuals.</li>
+<li><a href="https://git-school.github.io/visualizing-git/">Visualizing Git</a>, an interactive, visual simulation of committing, branching, rebasing, and resetting.</li>
+</ul>
+<h3 id="software">Software</h3>
+<ul>
+<li><a href="https://git-scm.com/">Git</a>, the all-powerful VCS.</li>
+<li><a href="https://ubuntu.com/desktop/wsl">WSL</a>, or Microsoft's Windows Subsystem for Linux. This is an integrated Ubuntu Linux command line environment inside Windows, and is great for learning the Linux command line.</li>
+</ul>
+
+</main>
+
+    <div class="dark-mode-buttons">
+        <button class="dark-mode-button" id="dark-mode-on"><img src="https://massivebird.github.io/dark_mode.svg" width="24" height="24" alt="Dark mode" aria-label="dark mode toggle" title="Dark mode"></button>
+        <button class="dark-mode-button" id="dark-mode-off"><img src="https://massivebird.github.io/light_mode.svg" width="24" height="24" alt="Light mode" aria-label="light mode toggle" title="Light mode"></button>
+    </div>
+    <script>
+        const cls = document.body.classList;
+        const getSessionTheme = sessionStorage.getItem("theme");
+        if (getSessionTheme === "dark") {
+            cls.toggle("dark-mode", true);
+        } else if (getSessionTheme === "light") {
+            cls.toggle("dark-mode", false);
+        } else if (window.matchMedia("(prefers-color-scheme: dark)").matches) {
+            cls.toggle("dark-mode", true);
+        }
+
+        document.getElementById("dark-mode-on").addEventListener("click", function(e) {
+            cls.toggle("dark-mode", true);
+            sessionStorage.setItem("theme", "dark");
+        });
+        document.getElementById("dark-mode-off").addEventListener("click", function(e) {
+            cls.toggle("dark-mode", false);
+            sessionStorage.setItem("theme", "light");
+        });
+    </script>
+    <noscript>
+        <style>
+            .dark-mode-buttons {
+                display: none;
+            }
+        </style>
+    </noscript>
+</body>
+</html>

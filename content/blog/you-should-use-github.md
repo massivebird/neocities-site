@@ -23,19 +23,21 @@ A _remote repository_ — often shortened to _remote_ — is a version of your r
 
 Local repositories on your computer can be associated with a remote one. This association allows Git to "push" and "pull" changes to/from the remote. More on that in a moment.
 
-## GitHub in a nutshell
+## The simple GitHub workflow
 
-I use GitHub to host all of my projects that I don't want to lose. If my hard drive shatters under the [extreme sub-zero temperatures of Vostok, Antarctica](https://wmo.asu.edu/content/world-lowest-temperature), my work is still safely stored on GitHub's servers. The only reason why I don't back up absolutely everything is because I'm lazy; it's dead simple to do.
+If you use GitHub for only one reason, it should be for making backups of your projects. If my hard drive shatters under the [extreme sub-zero temperatures of Vostok, Antarctica](https://wmo.asu.edu/content/world-lowest-temperature), my work is still safely stored on GitHub's servers. The only reason why I don't back up absolutely everything is because I'm lazy; it's dead simple to do.
 
-When I make new changes to my project, I commit them with a `git commit` command, then I run `git push` to send those new changes to the remote. Almost instantly, you can visit the remote in the web browser and see my new changes.
+When I make new changes to my project, I commit them with a `git commit` command, then I run `git push` to send those new changes to the remote. Almost instantly, you can visit the remote in the web browser and see the new commits.
 
-Downloading new changes is just as easy. I like working on both my laptop and PC, and I can easily sync work between the two. After pushing changes from one machine, all I have to do is run `git pull` on the other. Git inspects the remote, detects the new changes, and then applies them to the project. The same project is now identical on both machines.
+To download an entire project, all you need is a single `git clone <url>` command. This even downloads the project's entire Git commit history. Don't worry — you won't have to completely redownload the project to fetch new updates.
 
-Git interfaces with GitHub to make data transfers extremely simple. Whether you're downloading entire projects, pushing new changes, or pulling the latest updates, the process is easy, fast, and satisfying.
+Updating a project is extremely simple. I like working on both my laptop and PC, and I can easily sync work between the two. After pushing changes from one machine, all I have to do is run `git pull` on the other. Git inspects the remote, detects new commits, and then applies them to the local copy of the project. With a few inexpensive operations, the same project is now identical on both machines.
+
+Git interfaces with GitHub to make these data transfers extremely simple. Whether you're downloading entire projects, pushing new changes, or pulling the latest updates, the process is easy, fast, and satisfying.
 
 ## GitHub's additional features
 
-> If you're already sold on GitHub, you can skip this section to [get started already](#getting-started).
+> If you're already sold on GitHub, you can skip to the [Getting Started](#getting-started) section.
 
 Here are even more features in store for you!
 

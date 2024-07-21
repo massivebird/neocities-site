@@ -33,13 +33,13 @@ Besides, Git's GUI is so ugly and clunky that I wouldn't wish it on anyone.
 
 ## Resources
 
-__Start with [Pro Git](https://git-scm.com/book/en/v2)__, the free e-book hosted by the official Git website.
+__Start with [_Pro Git_](https://git-scm.com/book/en/v2)__, a free e-book available for download on the official Git site. All my homies love _Pro Git_.
 
 + [Ubuntu's Bash shell tutorial](https://ubuntu.com/tutorials/command-line-for-beginners#1-overview), for those unfamiliar with the command line.
 + [Git documentation](https://git-scm.com/docs) for cheat sheets, quick references, and command manuals.
 + [Visualizing Git](https://git-school.github.io/visualizing-git/), an interactive, visual simulation of committing, branching, rebasing, and resetting.
 
-### Downloads
+### Software
 
 + [Git](https://git-scm.com/), the all-powerful VCS.
 + [WSL](https://ubuntu.com/desktop/wsl), or Microsoft's Windows Subsystem for Linux. This is an integrated Ubuntu Linux command line environment inside Windows, and is great for learning the Linux command line.
